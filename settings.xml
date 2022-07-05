@@ -8,32 +8,14 @@
                 </property>
             </activation>
             <properties>
-                <myMavenRepoReadUrl>https://mymavenrepo.com/repo/2VqDwALaxN9yokO6R9fM/</myMavenRepoReadUrl>
+                <myMavenRepoReadUrl>https://https://mymavenrepo.com/repo/tdjLpWrTtvFiRa3NDo3t/</myMavenRepoReadUrl>
             </properties>
         </profile>
-        <profile>
-            <id>myMavenRepoWrite</id>
-            <activation>
-                <property>
-                    <name>!doNotUseMyMavenRepo</name>
-                </property>
-            </activation>
-            <properties>
-                <myMavenRepoWriteUrl>https://mymavenrepo.com/repo/LnkWLApP835me6QHQkCb/</myMavenRepoWriteUrl>
-            </properties>
-        </profile>
-    </profiles>
-
     <servers>
         <server>
             <id>myMavenRepoRead</id>
             <username>myMavenRepo</username>
-            <password>tao7horus</password>
-        </server>
-        <server>
-            <id>myMavenRepoWrite</id>
-            <username>myMavenRepo</username>
-            <password>tao7horus</password>
+            <password>Phamduclong99</password>
         </server>
     </servers>
 </settings>
