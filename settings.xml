@@ -4,13 +4,14 @@
             <id>myMavenRepoRead</id>
             <activation>
                 <property>
-                    <name>!doNotUseMyMavenRepo</name>
+                    <name>UseMyMavenRepo</name>
                 </property>
             </activation>
             <properties>
                 <myMavenRepoReadUrl>https://https://mymavenrepo.com/repo/tdjLpWrTtvFiRa3NDo3t/</myMavenRepoReadUrl>
             </properties>
         </profile>
+     </profiles>
     <servers>
         <server>
             <id>myMavenRepoRead</id>
